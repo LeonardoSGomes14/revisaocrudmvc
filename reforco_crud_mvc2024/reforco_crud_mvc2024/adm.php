@@ -133,7 +133,7 @@
             //Excluir esporte 
 if (isset($_POST['excluir_id'])) {
     $esporteController->deletaruser(
-        $_POST['excluir_id']);
+        $_POST['excluir_id']);}
                 ?>
 
                 <!-- Cadastrar dados -->
