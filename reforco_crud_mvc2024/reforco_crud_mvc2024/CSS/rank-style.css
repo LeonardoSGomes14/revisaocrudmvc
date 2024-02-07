@@ -1,0 +1,40 @@
+.rankdiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 20px 0px;
+}
+
+.ranktable {
+  border-collapse: collapse;
+  width: 100%;
+}
+  
+.thrank, .tdrank {
+  width: 10vw;
+  height: 5vw;
+  text-align: center;
+  border: none;
+  padding: 1.3vw;
+  background-color: #D9D9D9;
+}
+  
+@media screen and (max-width: 900px) {
+  .thrank, .tdrank {
+    font-size: .5rem;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    padding: 1.3vw;
+    background-color: #D9D9D9;
+  }
+}
+
+.center {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}

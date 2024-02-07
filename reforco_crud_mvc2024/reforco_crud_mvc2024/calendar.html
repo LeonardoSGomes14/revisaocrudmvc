@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/evo-calendar.midnight-blue.min.css">
+    <link rel="stylesheet" href="CSS/evo-calendar.min.css">
+    <link rel="stylesheet" href="CSS/cab-rod-style.css">
+    <link rel="stylesheet" href="CSS/rank-style.css">
+    <title>Calendário</title>
+</head>
+<body>
+    <div class="princ">
+        <header>
+            <div class="logo">
+                <a href="index.php">
+                    <img src="fotos/Logotipo sobre amigurumi colorido em vermelho (1).png" alt="logo">
+                </a>
+            </div>
+            <nav class="nav-bar">
+        <ul>
+<<<<<<< HEAD
+            <li class="nav-bts"><a class="nav-link" href="index.php">PÁGINA INICIAL</a></li>
+            <li class="nav-bts"><a class="nav-link" href="equipes.php">CONHEÇAS AS EQUIPES</a></li>
+=======
+            <li class="nav-bts"><a class="nav-link" href="sobre.html">SOBRE A COMPETIÇÃO</a></li>
+            <li class="nav-bts"><a class="nav-link" href="equipes.php">CONHEÇA AS EQUIPES</a></li>
+            <li class="nav-bts"><a class="nav-link" href="galeria.php">GALERIA</a></li>
+            <li class="nav-bts"><a class="nav-link" href="index.php#sessao_not">NOTÍCIAS</a></li>
+            <li class="nav-bts"><a class="nav-link" href="ingressos.php">ADQUIRA SEU INGRESSO</a></li>
+>>>>>>> 3a99dd15d42898820bcfcbb6a0b7fadd25231585
+        </ul>
+    </nav>
+            <div class="icone-l">
+                <a href="login.php">
+                    <img id="user" src="fotos/user.png" alt="login">
+                   <p class="text-user">Login/Logout</p>
+                </a>
+            </div>
+    
+    </header>
+            <section>
+                <div class="nav-bar-mob">
+                    <ul>
+                        <li class="nav-bts-m"><a class="nav-link-m" href="sobre.html">SOBRE</a></li>
+                        <li class="nav-bts-m"><a class="nav-link-m" href="equipes.php">EQUIPES</a></li>
+                        <li class="nav-bts-m"><a class="nav-link-m" href="galeria.php">GALERIA</a></li>
+                        <li class="nav-bts-m"><a class="nav-link-m" href="index.php#sessao_not">NOTÍCIAS</a></li>
+                        <li class="nav-bts-m"><a class="nav-link-m" href="ingressos.php">INGRESSO</a></li>
+                    </ul>
+                </div>
+                <div id="calendario">
+    <div id='calendar'></div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="evo-calendar.min.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+          $('#calendar').evoCalendar({
+        
+              theme: 'Midnight Blue',
+              calendarEvents: [
+            {
+              id: 'event1', // Event's ID (required)
+              name: "New Year", // Event name (required)
+              date: "January/1/2020", // Event date (required)
+              description:"Mais um ano se inicia!",
+              type: "holiday", // Event type (required)
+              everyYear: true // Same event every year (optional)
+            },
+            {
+              name: "Vacation Leave",
+              badge: "02/13 - 02/15", // Event badge (optional)
+              date: ["February/13/2020", "February/15/2020"], // Date range
+              description: "Vacation leave for 3 days.", // Event description (optional)
+              type: "event",
+              color: "#63d867" // Event custom color (optional)
+            },
+            {
+<<<<<<< HEAD
+              id: 'event3', // Event's ID (required)
+              name: "Abertura da gincana", // Event name (required)
+              date: "March/17/2024", // Event date (required)
+              description:"A estreia mais esperada do ano chegou!",
+              type: "event", // Event type (required)
+              color:"red",
+              everyYear: false // Same event every year (optional)
+=======
+            id: 'event3', // Event's ID (required)
+            name: "Abertura do interclasse", // Event name (required)
+            date: "october/17/2023", // Event date (required)
+            description:"A estreia mais esperada do ano chegou!",
+            type: "event", // Event type (required)
+            color:"red",
+            everyYear: false // Same event every year (optional)
+>>>>>>> 3a99dd15d42898820bcfcbb6a0b7fadd25231585
+            }
+          ]
+        });
+        
+          })
+        
+        </script>
+        </div>
+ <div class="divisao" id="sessao_not">
+    <div class="texto-topo">
+        TABELA DE JOGOS
+    </div>
+    <div class="linha"></div>
+</div> 
+
+
+    <div class="rankdiv">
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="thrank">&nbsp;</th>
+                    <th class="thrank">PEGA-PEGA</th>
+                    <th class="thrank">CORRIDA DO SACO</th>
+                    <th class="thrank">QUEIMADA</th>
+                    <th class="thrank">OVO NA COLHER</th>
+                    <th class="thrank">PULA ESLÁSTICO</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <th class="thrank">TIME A:</th>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                </tr>
+                <tr>
+                    <th class="thrank">TIME B</th>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                </tr>
+                <tr>
+                    <th class="thrank">TIME C</th>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                </tr>
+                <tr>
+                    <th class="thrank">TIME C</th>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                </tr>
+                <tr>
+                    <th class="thrank">TIME D</th>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                </tr>
+                <tr>
+                    <th class="thrank">TIME E</th>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                </tr>
+                <tr>
+                    <th class="thrank">TIME F</th>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                    <td class="tdrank"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+    </section>
+    <footer>
+        <div class="comunic">
+<div class="logo1">
+        <img src="fotos/Logotipo sobre amigurumi colorido em vermelho (1).png" alt="logo">
+</div>
+   <div class="contato">
+        <div class="contato-d"><p class="contato-p">CONTATE-NOS</p></div>
+        <div class="rs">
+            <a href="https://www.instagram.com/"><img class="icone" src="fotos/instagram.png"></a>
+            <a href="https://web.whatsapp.com/"><img class="icone" src="fotos/whatsapp.webp"></a>
+            <a href="https://www.youtube.com/"><img class="icone" src="fotos/youtube.png"></a>
+            <a href="https://www.facebook.com/"><img class="icone" src="fotos/facebook.png"></a>
+    </div>  
+</div>
+       </div>
+            <div class="termos">
+                <p class="termo-p">
+                    <a href="politica.html">
+                        POLITICA DE PRIVACIDADE
+                    </a> 
+                        | 
+                    <a href="FAQ.html">
+                        FAQ
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
+

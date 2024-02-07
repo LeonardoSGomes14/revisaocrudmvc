@@ -1,0 +1,35 @@
+.text-c{
+    font-size: .9rem;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3vw 3vw 5vw 3vw;
+}
+
+
+.neg{
+    font-size: .9rem;
+    font-weight: bold;
+    padding: .5vw 0vw .5vw 0vw;
+    margin: 0vw 0vw 0vw 3vw;
+}
+
+.neg1{
+    color: #757575;
+    font-size: .9rem;
+    font-weight: bold;
+    padding: .5vw 0vw .5vw 0vw;
+}
+
+.text-resp{
+    margin: 0vw 0vw 0vw 3vw;
+}
+
+
+h4{
+    color: #757575;
+    font-size: .9rem;
+    font-weight: bold;
+    padding: 2vw 0vw 2vw 0vw;
+}
